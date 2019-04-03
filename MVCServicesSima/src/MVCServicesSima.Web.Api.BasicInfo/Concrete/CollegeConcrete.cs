@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using MVCServicesSima.Models;
 
-namespace MVCServicesSima.Concrete
+namespace MVCServicesSima.Web.Api.BasicInfo.Concrete
 {
     public class CollegeConcrete : MVCServicesSima.Interfaces.ICollege
 
@@ -23,6 +22,7 @@ namespace MVCServicesSima.Concrete
         public IEnumerable<CollegeModel> GetAll()
         {
             return null;
+            //throw new NotImplementedException();
         }
 
         public CollegeModel GetByAutoID(long AutoID)
