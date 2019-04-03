@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCServicesSima.Models", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCServicesSima.Interfaces", "MVCServicesSima.Interfaces\MVCServicesSima.Interfaces.csproj", "{C0DF9D3C-7EAF-4FB1-8486-C06E793D4D65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimaUI", "SimaUI\SimaUI.csproj", "{34289AB5-A32E-4A91-97D3-97CB84DD1726}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C0DF9D3C-7EAF-4FB1-8486-C06E793D4D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0DF9D3C-7EAF-4FB1-8486-C06E793D4D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0DF9D3C-7EAF-4FB1-8486-C06E793D4D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34289AB5-A32E-4A91-97D3-97CB84DD1726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34289AB5-A32E-4A91-97D3-97CB84DD1726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34289AB5-A32E-4A91-97D3-97CB84DD1726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34289AB5-A32E-4A91-97D3-97CB84DD1726}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
