@@ -22,7 +22,7 @@ namespace MVCServicesSima.Concrete
 
         public IEnumerable<CollegeModel> GetAll()
         {
-            throw new NotImplementedException();
+            return null;
         }
 
         public CollegeModel GetByAutoID(long AutoID)
