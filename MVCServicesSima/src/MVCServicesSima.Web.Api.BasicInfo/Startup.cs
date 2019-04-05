@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.EntityFrameworkCore;
+using MVCServicesSima.Web.Api.BasicInfo.Models;
 
 namespace MVCServicesSima.Web.Api.BasicInfo
 {
@@ -25,9 +27,11 @@ namespace MVCServicesSima.Web.Api.BasicInfo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<MVCServicesSima.Interfaces.ICollege, Concrete.CollegeConcrete >();
-       
+                   
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddDbContext<MVCServicesSimaWebApiBasicInfoContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
