@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MVCServicesSima.Models
 {
-    class CityModel
+  public  class CityModel
     {
         int AreaId;
 
