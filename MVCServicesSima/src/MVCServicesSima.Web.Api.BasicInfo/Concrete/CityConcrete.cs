@@ -21,7 +21,7 @@ namespace MVCServicesSima.Web.Api.BasicInfo.Concrete
 
         public IEnumerable<CityModel> GetAll()
         {
-            throw new NotImplementedException();
+            return null;
         }
 
         public CityModel GetByAreaId(int AreaId)

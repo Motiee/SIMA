@@ -23,11 +23,12 @@ namespace MVCServicesSima.Web.Api.BasicInfo.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
+            _City.GetAll();
             return new string[] { "value1", "value2" };
         }
 
         // GET: api/City/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}", Name = "GetCity")]
         public string Get(int id)
         {
             return "value";

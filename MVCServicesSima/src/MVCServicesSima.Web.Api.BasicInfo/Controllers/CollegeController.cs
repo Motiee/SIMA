@@ -27,7 +27,7 @@ namespace MVCServicesSima.Web.Api.BasicInfo.Controllers
         }
 
         // GET: api/College/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}", Name = "GetCollege")]
         public string Get(int id)
         {
            

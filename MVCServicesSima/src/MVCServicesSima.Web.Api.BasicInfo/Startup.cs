@@ -27,6 +27,7 @@ namespace MVCServicesSima.Web.Api.BasicInfo
         {
             services.AddScoped<MVCServicesSima.Interfaces.ICollege, Concrete.CollegeConcrete >();
             services.AddScoped<MVCServicesSima.Interfaces.ICity, Concrete.CityConcrete>();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
