@@ -14,10 +14,10 @@ namespace MVCServicesSima.Models
         
         public string AreaTitle { get; set; }
 
-        public string city { get; set; }
+        public string CityName { get; set; }
 
         public string ProvinceTitle { get; set; }
-
+       
         public int ProvinceCode { get; set; }
     }
 }

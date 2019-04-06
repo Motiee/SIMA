@@ -12,11 +12,11 @@ namespace MVCServicesSima.Web.Api.BasicInfo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CityController : ControllerBase
+    public class CitiesController : ControllerBase
     {
         private readonly MVCServicesSimaWebApiBasicInfoContext _context;
 
-        public CityController(MVCServicesSimaWebApiBasicInfoContext context)
+        public CitiesController(MVCServicesSimaWebApiBasicInfoContext context)
         {
             _context = context;
         }
