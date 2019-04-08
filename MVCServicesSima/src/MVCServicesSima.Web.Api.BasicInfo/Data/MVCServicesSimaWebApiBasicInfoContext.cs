@@ -21,5 +21,7 @@ namespace MVCServicesSima.Web.Api.BasicInfo.Models
         public DbSet<MVCServicesSima.Models.Center> Center { get; set; }
 
         public DbSet<MVCServicesSima.Models.College> College { get; set; }
+
+        public DbSet<MVCServicesSima.Models.CollegeGroup> CollegeGroup { get; set; }
     }
 }

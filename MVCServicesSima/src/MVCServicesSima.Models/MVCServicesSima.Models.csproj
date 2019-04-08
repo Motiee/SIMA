@@ -45,6 +45,7 @@
     <Compile Include="Center.cs" />
     <Compile Include="City.cs" />
     <Compile Include="College.cs" />
+    <Compile Include="CollegeGroup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="University.cs" />
   </ItemGroup>
