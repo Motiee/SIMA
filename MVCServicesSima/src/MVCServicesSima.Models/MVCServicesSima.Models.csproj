@@ -47,7 +47,9 @@
     <Compile Include="College.cs" />
     <Compile Include="CollegeGroup.cs" />
     <Compile Include="Major.cs" />
+    <Compile Include="Prerequisite.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
     <Compile Include="University.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
