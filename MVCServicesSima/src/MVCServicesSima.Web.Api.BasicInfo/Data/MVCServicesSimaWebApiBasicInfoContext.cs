@@ -29,5 +29,7 @@ namespace MVCServicesSima.Web.Api.BasicInfo.Models
         public DbSet<MVCServicesSima.Models.Student> Student { get; set; }
 
         public DbSet<MVCServicesSima.Models.StudentChildren> StudentChildren { get; set; }
+
+        public DbSet<MVCServicesSima.Models.StudentSpouse> StudentSpouse { get; set; }
     }
 }
